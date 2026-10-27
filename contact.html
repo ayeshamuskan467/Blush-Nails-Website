@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Blush by Ayesha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-note">A LITTLE LUXURY, JUST FOR YOU</div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Blush by Ayesha<small>Nail Studio</small></a>
+      <button class="menu-toggle" type="button">Menu ☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+        <a class="nav-cta" href="contact.html">Book Appointment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">LET'S MAKE IT HAPPEN</span>
+        <h1>Book Your Appointment</h1>
+        <p>
+          Share your details below to prepare a booking message
+          that you can send through WhatsApp.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container form-wrap">
+
+        <div>
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2>We'd love to hear from you.</h2>
+          <p>
+            Have a question about a service or want to discuss a design?
+            Send a message to get started.
+          </p>
+
+          <div class="contact-card">
+            <strong>WhatsApp</strong>
+            <span>Message us about your appointment.</span>
+            <p>
+              <a href="https://wa.me/923001234567" target="_blank" rel="noopener">
+                +92 300 1234567 ↗
+              </a>
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <strong>Instagram</strong>
+            <span>Follow for nail inspiration and updates.</span>
+            <p>
+              <a href="https://instagram.com/YOUR_INSTAGRAM"
+                 target="_blank" rel="noopener">
+                @YOUR_INSTAGRAM ↗
+              </a>
+            </p>
+          </div>
+
+          <p class="note">
+            Replace the sample phone number and Instagram username
+            with the real business details.
+          </p>
+        </div>
+
+        <form class="booking-form" id="bookingForm">
+          <h3>Booking Request</h3>
+          <p class="note">Fields marked * are required.</p>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Your name *</label>
+              <input id="name" name="name" type="text"
+                     placeholder="Full name" required>
+            </div>
+
+            <div class="field">
+              <label for="phone">Your phone *</label>
+              <input id="phone" name="phone" type="tel"
+                     placeholder="03xx xxxxxxx" required>
+            </div>
+
+            <div class="field">
+              <label for="service">Choose a service *</label>
+              <select id="service" name="service" required>
+                <option value="">Choose a service</option>
+                <option>Classic Manicure</option>
+                <option>Gel Polish</option>
+                <option>Gel Polish Removal</option>
+                <option>Soft Gel Extensions</option>
+                <option>Custom Nail Art</option>
+                <option>Bridal / Occasion Set</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="date">Preferred date</label>
+              <input id="date" name="date" type="date">
+            </div>
+
+            <div class="field full">
+              <label for="message">Design details / message</label>
+              <textarea id="message" name="message"
+                placeholder="Tell us about your preferred nail design..."></textarea>
+            </div>
+          </div>
+
+          <button class="btn" type="submit">
+            Continue to WhatsApp ↗
+          </button>
+
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+
+          <p class="note">
+            This form prepares a WhatsApp message. It does not store
+            bookings in a database.
+          </p>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html">Blush by Ayesha</a>
+        <p>Beautiful nail care, made personal.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <div class="footer-links">
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+      </div>
+      <div>
+        <h3>Bookings</h3>
+        <div class="footer-links">
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright">
+      © <span class="year"></span> Blush by Ayesha Nail Studio.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
